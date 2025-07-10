@@ -1,0 +1,121 @@
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/* header */
+
+.header-section{
+    background-image: url('Assets/Hero-bg.png');
+    width: auto;
+    height: 698px;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo{
+    font-size: 34px;
+    font-weight: bold;
+    margin-left: 80px;
+    color: #4E47FF ;
+
+}
+
+.btn-sign-up{
+    background-color: #4E47FF ;
+    border: none;
+    border-radius: 10px;
+    padding: 12px 36px;
+    color: white;
+    font-size: 16px;
+    margin-left: 909px;
+
+}
+
+/*cool dark */
+
+.cools{
+        text-align: center;
+
+}
+
+.cool{
+    font-size: 65px;
+    font-weight: bold;
+}
+
+.stay{
+        background-color: #4E47FF ;
+    border: none;
+    font-size: 16px;
+    padding: 12px 36px;
+    border-radius: 10px ;
+    color: white;
+}
+
+/* see */
+
+.see-it{
+    margin-top: 116px;
+    margin-left: 139px;
+    margin-right: 159px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sees{
+    text-align: left;
+}
+
+.see{
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.see2{
+    color: #252432;
+}
+
+.mini{
+    border-radius: 48px;
+    margin-left: 220px;
+}
+
+/* joind */
+
+.joind-main{
+    background-color: rgba(77, 71, 255, 0.23);
+}
+
+.main1{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 142px;
+    margin-right: 142px;
+}
+
+.join-title{
+    font-size: 38px;
+    text-align: center;
+}
+
+.k1{
+    text-align:center ;
+    color: #4E47FF ;
+    gap: 159px;
+}
+
+.k2{
+    margin-top: -80px;
+    color: #252432c5;
+    font-size: 20px;
+} 
