@@ -34,6 +34,8 @@
 
 }
 
+
+
 .btn-sign-up{
     background-color: #4E47FF ;
     border: none;
@@ -44,6 +46,16 @@
     margin-left: 909px;
 
 }
+
+.btn-sign-up:hover{
+            background: #ff8a47;
+    color: #ffffff;
+    /* padding: 8px 10px; */
+    border-radius: 8px;
+    font-size: 20px;
+
+}
+
 
 /*cool dark */
 
@@ -64,6 +76,15 @@
     padding: 12px 36px;
     border-radius: 10px ;
     color: white;
+}
+
+.stay:hover{
+            background: #ff8a47;
+    color: #ffffff;
+    /* padding: 8px 10px; */
+    border-radius: 8px;
+    font-size: 20px;
+
 }
 
 /* see */
@@ -93,6 +114,7 @@
     border-radius: 48px;
     margin-left: 220px;
 }
+
 
 /* joind */
 
@@ -269,6 +291,15 @@ width: 335px;
 
 }
 
+.submit-button:hover{
+        background: #ff8a47;
+    color: #ffffff;
+    padding: 8px 10px;
+    border-radius: 8px;
+    font-size: 20px;
+
+}
+
 /* footer-section */
 
 .footer-main{
@@ -299,4 +330,12 @@ width: 335px;
     text-decoration: none;
 justify-content: center;
 color:  #8987A1;
+}
+
+.nav-section a:hover{
+    background: #4E47FF;
+    color: #ffffff;
+    padding: 8px 10px;
+    border-radius: 8px;
+    font-size: 20px;
 }
