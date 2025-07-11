@@ -96,6 +96,12 @@
 
 /* joind */
 
+.join-thousand{
+    padding-left: 139px;
+    padding-right: 139px;
+}
+
+
 .joind-main{
     background-color: #4d47ff27;
     border-radius: 24px;
@@ -103,15 +109,16 @@
 }
 
 .join-body{
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 4px;
+    padding-bottom: 40px;
 }
 
 .main1{
     display: flex;
     justify-content: space-between;
-    margin-left: 142px;
-    margin-right: 142px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: -80px;
     /* margin-top: 50px;
     margin-bottom: 50px; */
 }
@@ -126,8 +133,7 @@
 .k1{
     text-align:center ;
     color: #4E47FF ;
-    gap: 159px;
-    margin-top: -40px;
+    /* margin-top: -40px; */
 }
 
 .k2{
@@ -143,7 +149,7 @@
         font-size: 38px;
     text-align: center;
     font-weight: bold;
-    margin-top: 137px;
+    margin-top: 50px;
 
 }
 
@@ -157,6 +163,7 @@
 .card-main-section{
     display: flex;
     gap: 24px;
+    margin-top: 50px;
     margin-left: 151px;
     margin-right: 151px;
     /* justify-content: space-between; */
@@ -186,7 +193,9 @@
 
 .reviewer{
     padding-left: 6px;
+    color: #757575;
 }
+
 
 /* lets */
 
@@ -194,7 +203,7 @@
     display: flex;
     /* justify-content: center; */
     align-items: center;
-    gap: 80px;
+    gap: 50px;
     margin-top: -350px;
     
 }
@@ -202,7 +211,7 @@
 .lets{
     font-size: 97px;
     font-weight: bold;
-    margin-top: 450px;
+    margin-top: 400px;
 }
 
 .form, input{
@@ -255,15 +264,17 @@ color: #ffffff;
 background-color: #4E47FF;
 border: none;
 border-radius: 10px;
-padding: 19px 201px;
-text-align: center;
+/* padding: 19px 201px; */
+width: 335px;
+
 }
 
 /* footer-section */
 
 .footer-main{
+    margin-top: 71px;
     background-color: #ffffff;
-    padding-top: 104px;
+    padding-top: 50px;
     padding-bottom: 103px;
         /* padding-left: 554px;
     padding-right: 555px; */
