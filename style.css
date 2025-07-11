@@ -188,6 +188,7 @@
     margin-top: 50px;
     margin-left: 151px;
     margin-right: 151px;
+    justify-content: space-between;
     /* justify-content: space-between; */
 }
 
@@ -227,6 +228,7 @@
     align-items: center;
     gap: 50px;
     margin-top: -350px;
+    justify-content: space-between;
     
 }
 
