@@ -97,7 +97,9 @@
 /* joind */
 
 .joind-main{
-    background-color: rgba(77, 71, 255, 0.23);
+    background-color: #4d47ff27;
+    border-radius: 24px;
+    margin-top: 69px;
 }
 
 .join-body{
@@ -130,7 +132,8 @@
 
 .k2{
     margin-top: -80px;
-    color: #252432c5;
+    color: #252432;
+    opacity: 50%;
     font-size: 20px;
 } 
 
@@ -148,6 +151,7 @@
 
 .card-section{
     /* margin-top: 137px; */
+
 }
 
 .card-main-section{
@@ -186,8 +190,57 @@
 
 /* lets */
 
+.let-form{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 115px;
+    
+}
+
 .lets{
     font-size: 97px;
     font-weight: bold;
+    margin-top: 450px;
 }
 
+.form, input{
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    height: 70px;
+    width:497px ;
+    padding-left: 32px;
+    width: 495px;
+    height: 70px;
+    margin-top: 14px;
+    margin-bottom: 19px;
+
+    /* padding-top: 10px;
+    padding-bottom: 10px; */
+}
+
+
+.message{
+    border: none;
+    border-radius: 10px;
+    width: 495px;
+    height: 135px;
+
+}
+
+.fomr, textarea{
+    border: none;
+    border-radius: 10px;
+}
+
+.btn-touch{
+    margin-top: 19px;
+    width: 497px ;
+    /* height: 72px; */
+color: #ffffff;
+background-color: #4E47FF;
+border: none;
+border-radius: 10px;
+padding: 19px 201px;
+}
