@@ -8,6 +8,10 @@
     "wdth" 100;
 }
 
+.bg{
+    background-color: #4d47ff1f;
+}
+
 /* header */
 
 .header-section{
@@ -96,22 +100,32 @@
     background-color: rgba(77, 71, 255, 0.23);
 }
 
+.join-body{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
 .main1{
     display: flex;
     justify-content: space-between;
     margin-left: 142px;
     margin-right: 142px;
+    /* margin-top: 50px;
+    margin-bottom: 50px; */
 }
 
 .join-title{
     font-size: 38px;
     text-align: center;
+        font-weight: bold;
+
 }
 
 .k1{
     text-align:center ;
     color: #4E47FF ;
     gap: 159px;
+    margin-top: -40px;
 }
 
 .k2{
@@ -119,3 +133,32 @@
     color: #252432c5;
     font-size: 20px;
 } 
+
+/* what */
+
+.what{
+        font-size: 38px;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+/* star */
+
+.full-body{
+    background-color: white ;
+    
+}
+
+.card-img{
+    display: flex;
+    margin-bottom: 24px;
+}
+
+.card-img, img{
+    border-radius: 9999px;
+}
+
+.card-img, p{
+    margin-left: 6px;
+}
