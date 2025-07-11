@@ -219,6 +219,23 @@
     color: #757575;
 }
 
+/* ready */
+
+.ready-main{
+    padding-top: 80px;
+    padding-left: 139px;
+    padding-right: 139px;
+
+}
+
+.ready{
+    background-color: white;
+    border-radius: 14px;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 40px;
+}
+
 
 /* lets */
 
